@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Jellyfin.Plugin.FilmAffinity.Configuration;
+using Jellyfin.Plugin.Filmaffinity.Configuration;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
-namespace Jellyfin.Plugin.FilmAffinity;
+namespace Jellyfin.Plugin.Filmaffinity;
 
 /// <summary>
 /// The main plugin.
@@ -26,7 +26,7 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     }
 
     /// <inheritdoc />
-    public override string Name => "FilmAffinity";
+    public override string Name => "Filmaffinity";
 
     /// <inheritdoc />
     public override Guid Id => Guid.Parse("86d2dfbb-e99d-4b1f-b249-9a5aa707a338");
