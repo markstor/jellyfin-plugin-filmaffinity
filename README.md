@@ -1,17 +1,14 @@
 <h1 align="center">Jellyfin Filmaffinity Plugin</h1>
 
 <p align="center">
-<img alt="Plugin Banner" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/plugins/SVG/jellyfin-plugin-filmaffinity.svg?sanitize=true"/>
+<img alt="Plugin Banner" src="https://www.filmaffinity.com/images/logo4.png"/>
 <br/>
 <br/>
-<a href="https://github.com/markstor/jellyfin-plugin-filmaffinity/actions?query=workflow%3A%22Test+Build+Plugin%22">
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/jellyfin/jellyfin-plugin-filmaffinity/Test%20Build%20Plugin.svg">
-</a>
 <a href="https://github.com/markstor/jellyfin-plugin-filmaffinity">
-<img alt="GPLv3 License" src="https://img.shields.io/github/license/jellyfin/jellyfin-plugin-filmaffinity.svg"/>
+<img alt="GPLv3 License" src="https://img.shields.io/github/license/markstor/jellyfin-plugin-filmaffinity.svg"/>
 </a>
 <a href="https://github.com/markstor/jellyfin-plugin-filmaffinity/releases">
-<img alt="Current Release" src="https://img.shields.io/github/release/jellyfin/jellyfin-plugin-filmaffinity.svg"/>
+<img alt="Current Release" src="https://img.shields.io/github/release/markstor/jellyfin-plugin-filmaffinity.svg"/>
 </a>
 </p>
 
