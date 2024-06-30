@@ -1,6 +1,6 @@
 using MediaBrowser.Model.Plugins;
 
-namespace Jellyfin.Plugin.FilmAffinity.Configuration;
+namespace Jellyfin.Plugin.Filmaffinity.Configuration;
 
 /// <summary>
 /// The configuration options.

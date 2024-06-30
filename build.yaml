@@ -1,16 +1,15 @@
 ---
-name: "Template"
+name: "Filmaffinity"
 guid: "86d2dfbb-e99d-4b1f-b249-9a5aa707a338"
 version: "1.0.0.0"
-targetAbi: "10.8.0.0"
-framework: "net6.0"
-overview: "Short description about your plugin"
+targetAbi: "10.9.5.0"
+framework: "net8.0"
+overview: "Get metadata from Filmaffinity"
 description: >
-  This is a longer description that can span more than one
-  line and include details about your plugin.
-category: "General"
-owner: "jellyfin"
+  Get TV and movies metadata from Filmaffinity
+category: "Metadata"
+owner: "markstor"
 artifacts:
-- "Jellyfin.Plugin.FilmAffinity.dll"
+- "Jellyfin.Plugin.Filmaffinity.dll"
 changelog: >
   changelog

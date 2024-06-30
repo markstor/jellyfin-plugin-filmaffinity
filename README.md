@@ -1,4 +1,4 @@
-<h1 align="center">Jellyfin FilmAffinity Plugin</h1>
+<h1 align="center">Jellyfin Filmaffinity Plugin</h1>
 
 <p align="center">
 <img alt="Plugin Banner" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/plugins/SVG/jellyfin-plugin-filmaffinity.svg?sanitize=true"/>
