@@ -33,20 +33,20 @@ public interface IFilmaffinityClient
     /// <summary>
     /// Get result by id.
     /// </summary>
-    /// <param name="FilmaffinityId">The IMBDb id.</param>
+    /// <param name="filmaffinityId">The IMBDb id.</param>
     /// <param name="cancellationToken">The cancellation token.</param>
     /// <returns>The Filmaffinity video.</returns>
     public Task<FilmaffinityVideo?> GetVideoIdResultAsync(
-        string FilmaffinityId,
+        string filmaffinityId,
         CancellationToken cancellationToken);
 
     /// <summary>
     /// Get result by id.
     /// </summary>
-    /// <param name="FilmaffinityId">The IMBDb id.</param>
+    /// <param name="filmaffinityId">The IMBDb id.</param>
     /// <param name="cancellationToken">The cancellation token.</param>
     /// <returns>The Filmaffinity video.</returns>
     public Task<FilmaffinityArtist?> GetArtistIdResultAsync(
-        string FilmaffinityId,
+        string filmaffinityId,
         CancellationToken cancellationToken);
 }

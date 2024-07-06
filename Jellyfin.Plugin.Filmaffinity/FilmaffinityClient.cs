@@ -62,7 +62,7 @@ public class FilmaffinityClient : IFilmaffinityClient
     }
 
     /// <inheritdoc />
-    public async Task<FilmaffinityVideo?> GetVideoIdResultAsync(string FilmaffinityId, CancellationToken cancellationToken)
+    public async Task<FilmaffinityVideo?> GetVideoIdResultAsync(string filmaffinityId, CancellationToken cancellationToken)
     {
         var apiKey = GetApiKey();
         if (apiKey == null)
@@ -70,13 +70,13 @@ public class FilmaffinityClient : IFilmaffinityClient
             return null;
         }
 
-        var url = $"{BaseUrl}/video/{FilmaffinityId}";
+        var url = $"{BaseUrl}/video/{filmaffinityId}";
         return await GetResponseAsync<FilmaffinityVideo>(url, cancellationToken)
             .ConfigureAwait(false);
     }
 
     /// <inheritdoc />
-    public async Task<FilmaffinityArtist?> GetArtistIdResultAsync(string FilmaffinityId, CancellationToken cancellationToken)
+    public async Task<FilmaffinityArtist?> GetArtistIdResultAsync(string filmaffinityId, CancellationToken cancellationToken)
     {
         var apiKey = GetApiKey();
         if (apiKey == null)
@@ -84,7 +84,7 @@ public class FilmaffinityClient : IFilmaffinityClient
             return null;
         }
 
-        var url = $"{BaseUrl}/video/{FilmaffinityId}";
+        var url = $"{BaseUrl}/video/{filmaffinityId}";
         return await GetResponseAsync<FilmaffinityArtist>(url, cancellationToken)
             .ConfigureAwait(false);
     }
@@ -104,12 +104,13 @@ public class FilmaffinityClient : IFilmaffinityClient
 
     private string? GetApiKey()
     {
-        var apiKey = FilmaffinityPlugin.Instance?.Configuration.ApiKey;
-        if (string.IsNullOrEmpty(apiKey))
-        {
-            _logger.LogWarning("ApiKey is unset");
-        }
+        // var apiKey = FilmaffinityPlugin.Instance?.Configuration.ApiKey;
+        // if (string.IsNullOrEmpty(apiKey))
+        // {
+        //     _logger.LogWarning("ApiKey is unset");
+        // }
 
-        return apiKey;
+        // return apiKey;
+        return string.Empty;
     }
 }
